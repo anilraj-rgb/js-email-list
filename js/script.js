@@ -14,3 +14,8 @@ const generateMail = () => {
             })
     }
 }
+
+// chiamata funzione al page load
+generateMail();
+
+button.addEventListener('click', generateMail);
